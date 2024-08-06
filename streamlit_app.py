@@ -15,7 +15,7 @@ _ = load_dotenv(find_dotenv())    # read local .env file
 
 #export OPENAI_API_KEY=
 #os.environ["OPENAI_API_BASE"] = 'https://api.chatgptid.net/v1'
-zhipuai_api_key = os.environ['ZHIPUAI_API_KEY']
+zhipuai_api_key = "959d093797a4bbfc1b19e06655c22a31.FbR5JIDViXXp28GR"
 
 #不带问答链的普通模式
 def generate_response(input_text, openai_api_key):
